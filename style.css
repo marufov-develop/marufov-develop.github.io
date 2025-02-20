@@ -91,3 +91,15 @@ li {
 header span {
 	font-size: 40px;
 }
+
+@media screen and (max-width: 1200px){
+	.container {
+		width: 100%;
+		padding: d0 20px;
+	}
+
+	.portfolio-row {
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+}
