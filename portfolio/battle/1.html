@@ -4,21 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>css battle #1</title>
-</head>
-<body>
 
-	  <div class="main">
-  <div class="box"></div>
-</div>
-
-
-<style>
-  
-  .box {
-    width: 500px;
-    height: 500px;
-    background-color: #b5e0ba;
-  }
+  <style>
   
   * {
     padding: 0;
@@ -26,12 +13,25 @@
     box-sizing: border-box;
   }
 
-  .main {
-    width: 100%;
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    background: #5d3a3a;
   }
+
+  .col {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #000;
+  }
+
 </style>
+
+</head>
+<body>
+
+	<div class="col"></div>
 
 </body>
 </html>
