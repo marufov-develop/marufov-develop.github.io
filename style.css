@@ -66,6 +66,7 @@ li {
 	align-items: center;
 	gap: 10px;
 	margin-top: 50px;
+	flex-wrap: wrap;
 }
 
 .battle-col {
@@ -73,6 +74,7 @@ li {
 	width: 300px;
 	padding: 15px;
 	border: 1px solid #ccc;
+	border-radius: 5px;
 }
 
 .battle-col img{
@@ -113,4 +115,40 @@ header span {
 	.navbar a {
 		border: 0!important;
 	}
+	.content {
+		width: 100p%!important;
+	}
+}
+
+.content {
+	width: 400px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.avatar {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.content h1 {
+	margin: 20px 0;
+	font-size: 2rem;
+	color: var(--black);
+}
+
+.content p {
+	margin: 10px 0;
+	font-size: 1.2rem;
+	color: var(--black);
+	text-align: center;
+}
+
+* {
+	border: 1px solid #111;
 }
